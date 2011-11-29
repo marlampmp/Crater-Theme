@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = http://git.drupal.org/project/drupal.git
+[branch "8.x"]
+	remote = origin
+	merge = refs/heads/8.x
